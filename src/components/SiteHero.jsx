@@ -8,8 +8,8 @@ import {
 } from 'lucide-react';
 
 const heroVideos = [
-  '/videos/grk_video_1.mp4',
-  '/videos/grk_video_2.mp4'
+  `${import.meta.env.BASE_URL}videos/grk_video_1.mp4`,
+  `${import.meta.env.BASE_URL}videos/grk_video_2.mp4`
 ];
 
 export default function SiteHero() {
@@ -29,11 +29,10 @@ export default function SiteHero() {
           muted
           playsInline
           onEnded={handleVideoEnded}
-          poster="/images/hero_modern_home.jpg"
+          poster={`${import.meta.env.BASE_URL}images/hero_modern_home.jpg`}
           className="clean-hero-video"
         >
           <source src={heroVideos[videoIndex]} type="video/mp4" />
-          <source src="/videos/modern_architecture_drone.mp4" type="video/mp4" />
         </video>
         <div className="clean-hero-overlay" />
         <div className="clean-hero-vignette" />
@@ -51,7 +50,7 @@ export default function SiteHero() {
         </h1>
 
         <p className="clean-hero-description">
-          A personal, builder-led approach with Director <strong>Revanth Kallu</strong>. 
+          A personal, builder-led approach by <strong>GRK Homes</strong>. 
           Fixed-price contract certainty, refined contemporary craftsmanship, and seamless project management across Sydney and The Hills Shire.
         </p>
 

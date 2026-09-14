@@ -50,11 +50,10 @@ export default function CinematicShowcase() {
               loop
               muted={isMuted}
               playsInline
-              poster="/images/hero_modern_home.jpg"
+              poster={`${import.meta.env.BASE_URL}images/hero_modern_home.jpg`}
               className="theatre-video"
             >
-              <source src="/videos/grk_video_2.mp4" type="video/mp4" />
-              <source src="/videos/modern_architecture_drone.mp4" type="video/mp4" />
+              <source src={`${import.meta.env.BASE_URL}videos/grk_video_2.mp4`} type="video/mp4" />
             </video>
 
             {/* Video Controls Overlay */}
@@ -101,7 +100,7 @@ export default function CinematicShowcase() {
             <div className="pillar-card">
               <div className="pillar-num">03</div>
               <h3>Fixed-Price Assurance</h3>
-              <p>Transparent schedule of finishes, fixed build timeline, and direct daily leadership with Director Revanth Kallu.</p>
+              <p>Transparent schedule of finishes, fixed build timeline, and direct daily oversight by GRK Homes.</p>
             </div>
           </div>
 

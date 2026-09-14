@@ -14,10 +14,10 @@ export default function SiteFooter() {
           {/* Brand Col */}
           <div className="footer-brand-col">
             <a href="#top" className="footer-logo-link">
-              <img src="/images/grk_logo.png" alt="GRK Homes" className="footer-logo-img" />
+              <img src={`${import.meta.env.BASE_URL}images/grk_logo.png`} alt="GRK Homes" className="footer-logo-img" />
             </a>
             <p className="footer-bio">
-              Sydney’s dedicated contract builder for bespoke architectural residences, knockdown rebuilds, and high-yield dual occupancies. Led directly on site by Director Revanth Kallu.
+              Sydney’s dedicated contract builder for bespoke architectural residences, knockdown rebuilds, and high-yield dual occupancies. Built with unwavering craftsmanship and contract integrity by GRK Homes.
             </p>
             <div className="footer-licence-badge">
               <ShieldCheck size={16} />

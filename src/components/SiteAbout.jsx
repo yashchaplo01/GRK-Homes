@@ -19,7 +19,7 @@ export default function SiteAbout() {
               Building a bespoke architectural home involves hundreds of critical decisions. The process is smoother, faster, and far more rewarding when the licensed builder directly manages your site, understands the engineering brief, and personally takes accountability for every detail.
             </p>
             <p className="about-text">
-              At GRK Homes, we deliberately limit our concurrent project intake across Sydney and The Hills Shire. This ensures Director <strong>Revanth Kallu</strong> remains personally present on site, collaborating closely with your architects, engineers, and trades.
+              At GRK Homes, we deliberately limit our concurrent project intake across Sydney and The Hills Shire. This ensures the <strong>GRK Homes</strong> building team remains personally present on site, collaborating closely with your architects, engineers, and trades.
             </p>
 
             <div className="about-commitments">
@@ -49,7 +49,7 @@ export default function SiteAbout() {
                 </div>
                 <div>
                   <h4>Direct Builder Access Always</h4>
-                  <p>Direct mobile access to Revanth Kallu throughout your build. No disconnected account managers or runarounds.</p>
+                  <p>Direct communication with our licensed builders throughout your build. No disconnected account managers or runarounds.</p>
                 </div>
               </div>
             </div>

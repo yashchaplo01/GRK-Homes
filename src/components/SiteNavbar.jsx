@@ -62,7 +62,7 @@ export default function SiteNavbar() {
         {/* Center Logo */}
         <div className="nav-center-brand">
           <a className="clean-logo-link" href="#top" aria-label="GRK Homes - Return to top">
-            <img src="/images/grk_logo.png" alt="GRK Homes" className="logo-center-img" />
+            <img src={`${import.meta.env.BASE_URL}images/grk_logo.png`} alt="GRK Homes" className="logo-center-img" />
           </a>
         </div>
 

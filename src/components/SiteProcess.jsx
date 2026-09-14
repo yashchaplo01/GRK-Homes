@@ -28,7 +28,7 @@ const processSteps = [
     icon: Hammer,
     title: 'Precision Build',
     subtitle: 'Daily builder presence',
-    description: 'Construction led directly on site by Revanth Kallu. Regular site walk-throughs, milestone progress updates, and strict quality benchmarks.'
+    description: 'Construction led directly on site by GRK Homes. Regular site walk-throughs, milestone progress updates, and strict quality benchmarks.'
   },
   {
     step: '05',
@@ -52,7 +52,7 @@ export default function SiteProcess() {
             A Clear, Predictable Path to Your New Home.
           </h2>
           <p className="process-description">
-            No sales scripts or confusing jargon. Just honest, practical construction management from your first coffee with Revanth to the day you unlock the front door.
+            No sales scripts or confusing jargon. Just honest, practical construction management from your initial consultation with GRK Homes to the day you unlock the front door.
           </p>
         </div>
 

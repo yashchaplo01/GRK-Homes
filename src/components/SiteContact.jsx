@@ -45,7 +45,7 @@ export default function SiteContact() {
               Let’s Discuss Your Build.
             </h2>
             <p className="contact-lead">
-              Have a block in Sydney or The Hills Shire? Speak directly with Director &amp; Licensed Builder <strong>Revanth Kallu</strong> for honest, practical feedback on your concept, budget, and council approvals.
+              Have a block in Sydney or The Hills Shire? Speak directly with the licensed builders at <strong>GRK Homes</strong> for honest, practical feedback on your concept, budget, and council approvals.
             </p>
 
             <div className="contact-cards-stack">
@@ -99,7 +99,7 @@ export default function SiteContact() {
                 <div className="form-success-box">
                   <CheckCircle2 size={32} className="success-icon" />
                   <h4>Thank You, {form.name || 'Friend'}</h4>
-                  <p>Your enquiry has been prepared. If your mail client didn't open automatically, you can reach Revanth directly at <strong>+61 430 948 518</strong>.</p>
+                  <p>Your enquiry has been prepared. If your mail client didn't open automatically, you can reach GRK Homes directly at <strong>+61 430 948 518</strong>.</p>
                   <button 
                     type="button" 
                     className="btn btn-luxury-primary" 
